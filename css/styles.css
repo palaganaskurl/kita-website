@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Menlo-Bold";
+  src: local("Menlo-Bold"), url(/assets/fonts/Menlo-Bold.ttf) format("ttf");
+}
+
+@font-face {
+  font-family: "Menlo-Regular";
+  src: local("Menlo-Regular"),
+    url(/assets/fonts/Menlo-Regular.ttf) format("ttf");
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
