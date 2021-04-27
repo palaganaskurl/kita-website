@@ -4,47 +4,65 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="build/styles.css">
+  <title>KITA Philippines</title>
+  <link rel="stylesheet" href="build/css/styles.css">
+  <style>
+    a.fb-message-blue {
+      font-size: 14px;
+      font-family: Helvetica, Arial, sans-serif;
+      text-decoration: none;
+      color: #fff;
+      background: rgb(78,103,255);
+      background: linear-gradient(90deg, rgba(78,103,255,1) 28%, rgba(148,69,240,1) 62%, rgba(227,72,164,1) 100%);
+      width: 127px;
+      height: 40px;
+      line-height: 40px;
+      position: fixed;
+      outline: none;
+      -webkit-transition: all ease .15s;
+      -o-transition: all ease .15s;
+      -moz-transition: all ease .15s;
+      transition: all ease .15s;
+      border-radius: 10px;
+      padding-left: 4px;
+      padding-right: 4px;
+    }
+    .fb-message-blue i {
+      background-image: url('assets/images/messenger.png');
+      background-repeat: no-repeat;
+      background-size: 18px;
+      background-position: 8px 12px;
+      height: 40px;
+      width: 30px;
+      float: left;
+    }
+  </style>
 </head>
 <body style="background-color: #F1F1E7">
-  <div class="container mx-auto">
-    <div class="grid sm:grid-cols-2 grid-cols-1">
-      <div class="flex flex-col justify-center px-8 py-12">
-        <div>
-          <img src="/assets/images/KITA-LOGO-01.svg" class="w-2/12 h-2/12 object-scale-down"/>
-        </div>
-        <div class="pt-8 font-menlo-bold font-semibold text-4xl" style="color: #06052F;">
-          Finance, made simple
-        </div>
-        <div class="pt-8 tracking-wider font-menlo-regular">
-          Welcome to KITA. Your guide in meeting your personal financial goals.
-        </div>
-        <div class="pt-8">
-          <div class="fb-messengermessageus"
-            messenger_app_id="4179296015471017"
-            page_id="106004787833344"
-            color="blue"
-            size="xlarge"
-          >
-            </div>
-        </div>
+  <div class="container grid sm:grid-cols-2 grid-cols-1 mx-auto h-screen">
+    <div class="flex flex-col justify-center px-8 py-12">
+      <div>
+        <img src="/assets/images/KITA-LOGO-01.svg" class="w-2/12 h-2/12 object-scale-down"/>
       </div>
-      <div class="flex justify-center sm:items-center p-12">
-        <img src="/assets/images/HERO-IMAGE-01.png" class="w-100 h-100"/>
+      <div class="pt-8 font-menlo-bold font-semibold text-4xl" style="color: #06052F;">
+        Finance, made simple
+      </div>
+      <div class="pt-8 tracking-wider font-menlo-regular">
+        Welcome to KITA. Your guide in meeting your personal financial goals.
+      </div>
+      <div class="pt-8" style="transform: translate3d(0,0,0);">
+        <a
+          href="https://www.messenger.com/t/kitaphilippines/"
+          class="fb-message-blue"
+          target="_blank"
+        >
+          <i></i> Message Us
+        </a>
       </div>
     </div>
+    <div class="flex justify-center sm:items-center px-8 pb-4">
+      <img src="/assets/images/HERO-IMAGE-01.png" class="w-100 h-100 self-center"/>
+    </div>
   </div>
-  <script>
-    window.fbAsyncInit = function() {
-      FB.init({
-        appId            : '4179296015471017',
-        autoLogAppEvents : true,
-        xfbml            : true,
-        version          : 'v10.0'
-      });
-    };
-  </script>
-  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
 </body>
 </html>
