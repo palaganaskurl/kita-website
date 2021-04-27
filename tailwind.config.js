@@ -7,8 +7,8 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      'Menlo-Regular': ['"Menlo-Regular"'],
-      'Menlo-Bold': ['"Menlo-Bold"']
+      'menlo-regular': ['"Menlo Regular"', "sans-serif"],
+      'menlo-bold': ['"Menlo Bold"', "sans-serif"]
     }
   },
   variants: {

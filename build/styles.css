@@ -1,14 +1,13 @@
 @font-face {
-  font-family: "Menlo-Bold";
+  font-family: "Menlo Bold";
 
-  src: local("Menlo-Bold"), url(/assets/fonts/Menlo-Bold.ttf) format("ttf");
+  src: url("../assets/fonts/Menlo-Regular.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "Menlo-Regular";
+  font-family: "Menlo Regular";
 
-  src: local("Menlo-Regular"),
-    url(/assets/fonts/Menlo-Regular.ttf) format("ttf");
+  src: url("../assets/fonts/Menlo-Regular.ttf") format("truetype");
 }
 
 /*! tailwindcss v2.1.2 | MIT License | https://tailwindcss.com */
@@ -11238,12 +11237,12 @@ video {
   clear: none;
 }
 
-.font-Menlo-Regular {
-  font-family: "Menlo-Regular";
+.font-menlo-regular {
+  font-family: "Menlo Regular", sans-serif;
 }
 
-.font-Menlo-Bold {
-  font-family: "Menlo-Bold";
+.font-menlo-bold {
+  font-family: "Menlo Bold", sans-serif;
 }
 
 .font-thin {
@@ -42515,12 +42514,12 @@ video {
     clear: none;
   }
 
-  .sm\:font-Menlo-Regular {
-    font-family: "Menlo-Regular";
+  .sm\:font-menlo-regular {
+    font-family: "Menlo Regular", sans-serif;
   }
 
-  .sm\:font-Menlo-Bold {
-    font-family: "Menlo-Bold";
+  .sm\:font-menlo-bold {
+    font-family: "Menlo Bold", sans-serif;
   }
 
   .sm\:font-thin {
@@ -73622,12 +73621,12 @@ video {
     clear: none;
   }
 
-  .md\:font-Menlo-Regular {
-    font-family: "Menlo-Regular";
+  .md\:font-menlo-regular {
+    font-family: "Menlo Regular", sans-serif;
   }
 
-  .md\:font-Menlo-Bold {
-    font-family: "Menlo-Bold";
+  .md\:font-menlo-bold {
+    font-family: "Menlo Bold", sans-serif;
   }
 
   .md\:font-thin {
@@ -104729,12 +104728,12 @@ video {
     clear: none;
   }
 
-  .lg\:font-Menlo-Regular {
-    font-family: "Menlo-Regular";
+  .lg\:font-menlo-regular {
+    font-family: "Menlo Regular", sans-serif;
   }
 
-  .lg\:font-Menlo-Bold {
-    font-family: "Menlo-Bold";
+  .lg\:font-menlo-bold {
+    font-family: "Menlo Bold", sans-serif;
   }
 
   .lg\:font-thin {
@@ -135836,12 +135835,12 @@ video {
     clear: none;
   }
 
-  .xl\:font-Menlo-Regular {
-    font-family: "Menlo-Regular";
+  .xl\:font-menlo-regular {
+    font-family: "Menlo Regular", sans-serif;
   }
 
-  .xl\:font-Menlo-Bold {
-    font-family: "Menlo-Bold";
+  .xl\:font-menlo-bold {
+    font-family: "Menlo Bold", sans-serif;
   }
 
   .xl\:font-thin {
@@ -166943,12 +166942,12 @@ video {
     clear: none;
   }
 
-  .\32xl\:font-Menlo-Regular {
-    font-family: "Menlo-Regular";
+  .\32xl\:font-menlo-regular {
+    font-family: "Menlo Regular", sans-serif;
   }
 
-  .\32xl\:font-Menlo-Bold {
-    font-family: "Menlo-Bold";
+  .\32xl\:font-menlo-bold {
+    font-family: "Menlo Bold", sans-serif;
   }
 
   .\32xl\:font-thin {

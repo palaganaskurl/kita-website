@@ -1,12 +1,11 @@
 @font-face {
-  font-family: "Menlo-Bold";
-  src: local("Menlo-Bold"), url(/assets/fonts/Menlo-Bold.ttf) format("ttf");
+  font-family: "Menlo Bold";
+  src: url("../assets/fonts/Menlo-Regular.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "Menlo-Regular";
-  src: local("Menlo-Regular"),
-    url(/assets/fonts/Menlo-Regular.ttf) format("ttf");
+  font-family: "Menlo Regular";
+  src: url("../assets/fonts/Menlo-Regular.ttf") format("truetype");
 }
 
 @tailwind base;
