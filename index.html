@@ -29,23 +29,6 @@
       color: #fff;
       background: rgb(78,103,255);
       background: linear-gradient(90deg, rgba(78,103,255,1) 28%, rgba(148,69,240,1) 62%, rgba(227,72,164,1) 100%);
-      outline: none;
-      -webkit-transition: all ease .15s;
-      -o-transition: all ease .15s;
-      -moz-transition: all ease .15s;
-      transition: all ease .15s;
-      border-radius: 10px;
-      padding: 15px;
-    }
-    .fb-message-blue i {
-      background-image: url('assets/images/messenger-logo.png');
-      background-repeat: no-repeat;
-      background-position: left center;
-      background-size: 26px;
-      height: 30px;
-      width: 30px;
-      position: absolute;
-      margin-top: -2px;
     }
   </style>
 </head>
@@ -63,16 +46,16 @@
       </div>
       <div class="pt-8" style="transform: translate3d(0,0,0);">
         <a
+          class="font-bold py-2 px-4 rounded inline-flex items-center fb-message-blue rounded-xl"
           href="https://www.messenger.com/t/kitaphilippines/"
-          class="fb-message-blue"
           target="_blank"
         >
-          <i></i>
-          <span style="margin-left: 35px;" class="font-medium">Message Us</span>
+          <img src="assets/images/messenger-logo.png" width="30" height="30"/>
+          <span class="ml-2">Message Us</span>
         </a>
       </div>
     </div>
-    <div class="flex justify-center sm:items-center px-8 pb-4">
+    <div class="flex justify-center sm:items-center px-8 pb-4 sm:pt-8">
       <img src="/assets/images/HERO-IMAGE-01.png" class="w-100 h-100 self-center"/>
     </div>
   </div>
