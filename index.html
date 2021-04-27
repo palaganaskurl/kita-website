@@ -25,33 +25,27 @@
   <link rel="stylesheet" href="build/css/styles.css">
   <style>
     a.fb-message-blue {
-      font-size: 14px;
-      font-family: Helvetica, Arial, sans-serif;
       text-decoration: none;
       color: #fff;
       background: rgb(78,103,255);
       background: linear-gradient(90deg, rgba(78,103,255,1) 28%, rgba(148,69,240,1) 62%, rgba(227,72,164,1) 100%);
-      width: 127px;
-      height: 40px;
-      line-height: 40px;
-      position: fixed;
       outline: none;
       -webkit-transition: all ease .15s;
       -o-transition: all ease .15s;
       -moz-transition: all ease .15s;
       transition: all ease .15s;
       border-radius: 10px;
-      padding-left: 4px;
-      padding-right: 4px;
+      padding: 15px;
     }
     .fb-message-blue i {
-      background-image: url('assets/images/messenger.png');
+      background-image: url('assets/images/messenger-logo.png');
       background-repeat: no-repeat;
-      background-size: 18px;
-      background-position: 8px 12px;
-      height: 40px;
+      background-position: left center;
+      background-size: 26px;
+      height: 30px;
       width: 30px;
-      float: left;
+      position: absolute;
+      margin-top: -2px;
     }
   </style>
 </head>
@@ -73,7 +67,8 @@
           class="fb-message-blue"
           target="_blank"
         >
-          <i></i> Message Us
+          <i></i>
+          <span style="margin-left: 35px;" class="font-medium">Message Us</span>
         </a>
       </div>
     </div>
