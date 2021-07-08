@@ -1,11 +1,26 @@
 @font-face {
-  font-family: "Menlo Bold";
-  src: url("../../assets/fonts/Menlo-Regular.ttf") format("truetype");
+  font-family: 'Menlo Bold';
+  src: url('../../assets/fonts/Menlo-Regular.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: "Menlo Regular";
-  src: url("../../assets/fonts/Menlo-Regular.ttf") format("truetype");
+  font-family: 'Menlo Regular';
+  src: url('../../assets/fonts/Menlo-Regular.ttf') format('truetype');
+}
+
+@layer utilities {
+  .line-height-fa {
+    line-height: 2.5rem !important;
+  }
+
+  .member-info:hover .member-info-about {
+    opacity: 1;
+  }
+
+  .member-info:hover .member-info-overlay {
+    opacity: 0.4;
+    background-color: #040533;
+  }
 }
 
 @tailwind base;

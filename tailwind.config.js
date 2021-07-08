@@ -7,14 +7,20 @@ module.exports = {
   },
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'kita-blue': '#0E698B',
+        'kita-dark-blue': '#040533'
+      }
+    },
     fontFamily: {
       'menlo-regular': ['"Menlo Regular"', "sans-serif"],
-      'menlo-bold': ['"Menlo Bold"', "sans-serif"]
-    }
+      'menlo-bold': ['"Menlo Bold"', "sans-serif"],
+      'helvetica': ['"Helvetica"']
+    },
   },
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: []
 }
