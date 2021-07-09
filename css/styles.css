@@ -18,7 +18,7 @@
   }
 
   .member-info:hover .member-info-overlay {
-    opacity: 0.4;
+    opacity: 0.6;
     background-color: #040533;
   }
 }
